@@ -61,7 +61,8 @@
         android:inputType="textEmailAddress"
         android:textColor="#ffffff"
         tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="180dp" />
+        tools:layout_editor_absoluteY="180dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
@@ -69,7 +70,8 @@
         android:inputType="textPassword"
         android:textColor="#ffffff"
         tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="258dp" />
+        tools:layout_editor_absoluteY="258dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/image"
